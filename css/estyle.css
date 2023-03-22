@@ -1,3 +1,48 @@
+/*Estilos gerais*/
 body{
-    background-color: #640303;
+    font-family: 'roboto',sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li { 
+    color: #5e12c2;
+    font-size: 14px;
+}
+
+/*Estilos da barra de navegação*/
+header,.navbar {
+    background: #000000;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+#navbar-links a{
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
 }
