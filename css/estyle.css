@@ -1,48 +1,102 @@
-/*Estilos gerais*/
-body{
-    font-family: 'roboto',sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap');
 
-.row{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    padding: 70px 0;
+body{
+    font-family: "Poppins",sans-serif;
 }
 
-p, li { 
-    color: #5e12c2;
-    font-size: 14px;
+a, a:hover{
+    text-decoration: none;
 }
 
-/*Estilos da barra de navegação*/
-header,.navbar {
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
     background: #000000;
 }
 
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
+.top-bar span{
+    color: #fff;
 }
 
-#logo {
-    width: 75px;
+.top-bar ul{
+    list-style: none;
+    display: flex;
 }
 
-.navbar-brand {
-    padding: 0;
-    color: #ffffff;
+.top-bar li{
+    margin: 0px 5px;
 }
 
-.navbar-brand:hover {
-    color: #ffffff;
+.top-bar a{
+    color:#fff
 }
 
-#navbar-links a{
-    color: #ffffff;
+.top-bar a:hover{
+    color: #000000;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding: 1rem .8rem;
+nav{
+    background: #000000;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
 }
+
+nav a{
+    color: #fff;
+}
+
+
+nav a:hover{
+    color: #ef4b3f;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo a:hover{
+    color: #fff;
+}
+
+.logo img{
+    width: 120px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+
+
+
+
+
