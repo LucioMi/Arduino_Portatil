@@ -9,17 +9,11 @@ closeMenu.addEventListener('click',() =>{
     navMenu.classList.remove('show')
 })
 
-let count = 1;
-document.getElementById("radio1").checked = true;
-
-setInterval( function(){
-    nextImage();
-}, 6000)
-
-function nextImage(){
-    count++;
-    if(count>3){
-        count = 1;
+var counter =1;
+setInterval(function(){
+    document.getElementById('radio'+counter).checked = true;
+    counter++;
+    if(counter > 4){
+        counter = 1;
     }
-    document.getElementById("radio"+count).checked = true;
-}
+},6000);
