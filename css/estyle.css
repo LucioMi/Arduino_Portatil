@@ -28,20 +28,13 @@ header {
 
 .logo {
     display: flex;
+    width: 50%;
     align-items: center;
 }
 
 .logo img {
-    width: 150px;
-    border-radius: 50px;
+    width: 350px;
 }
-
-/*
-.header__logo {
-    color: #ec0e0e;
-    font-weight: 600;
-}
-*/
 
 .top__bar {
     color: #eee;
@@ -90,7 +83,7 @@ header {
         font-size: 0.9rem;
     }
     .logo img {
-        width: 30px;
+        width: 150px;
     }
     .header__toggle {
         display: inline;
@@ -139,7 +132,6 @@ article{
     justify-content: space-around;
     padding: 1rem 0;
     align-items: center;
-    display: flex;
 }
 
 .slider{
@@ -165,13 +157,13 @@ article{
 }
 
 .slide img{
-    width: 800px;
+    width: 100%;
     height: 500px;
 }
 
 .navigation-manual{
     position: absolute;
-    width: 800px;
+    width: 100%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -209,7 +201,7 @@ article{
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 100%;
     justify-content: center;
     margin-top: 460px;
 }
@@ -236,7 +228,32 @@ article{
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #eee;
 }
+/*RESUMO DE SERVIÇOS*/
+main{
+    background-color: #031836;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
 
-
-
-
+.flex-container	{
+    display:	flex;
+    flex-wrap:	wrap;
+    justify-content:	space-evenly;
+}
+.foto	{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000000aa;
+    background-color: #ff002b;
+    margin-bottom: 1rem;
+}
+/* .outdoor1 {
+    width:25%;
+    height: 400px;
+    display: flex;
+    background: #222831;
+    border: 5px solid; 
+    border-color: #f00 #0f0 #00f #fc0; 
+} */
